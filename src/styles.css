@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.calculator{
+    width:30%;
+    height:50%;
+    margin:auto auto;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top:20%;
+    box-shadow: 10px -10px 40px rgba(128, 0, 128, 0.5), -10px 10px 40px rgba(251, 24, 78, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+ text-align: center;    
+ font-weight: 700;   
+}
+input{
+    width:80%;
+    margin:0 auto;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.buttons{
+    width:80%;
+    margin:0 auto;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+button{
+    color:white;
+    background-color: #2B2B2B;
+    border: 2px solid #2B2B2B;
+    width:15%;
+    height:40px;
+}
+.result{
+    text-align: center;
+}
+.error{
+    color: red;
+    margin-bottom: 10px;
+}
+.success{
+    color:blue;
+    margin-bottom: 10px;
+}
